@@ -1,0 +1,309 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\DigiStatic">
+      <UniqueIdentifier>{d5ee576c-a9b8-4ea0-b89f-4ff1bb2d8c93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Chart">
+      <UniqueIdentifier>{a700a486-48a5-4166-b59e-7f97fd704445}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\PSINS">
+      <UniqueIdentifier>{74313b2c-9c05-48e5-ac8d-e1c1256672a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\PSINS">
+      <UniqueIdentifier>{aeab1b2f-dba9-4934-92cc-3ce22b8d128d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="PSINS_FIMU.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PSINS_FIMUDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DigiStatic_src\Curvefit.h">
+      <Filter>源文件\DigiStatic</Filter>
+    </ClInclude>
+    <ClInclude Include="DigiStatic_src\Digistatic.h">
+      <Filter>源文件\DigiStatic</Filter>
+    </ClInclude>
+    <ClInclude Include="DigiStatic_src\Rgbcolor.h">
+      <Filter>源文件\DigiStatic</Filter>
+    </ClInclude>
+    <ClInclude Include="DigiStatic_src\MemDCEx.h">
+      <Filter>源文件\DigiStatic</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl_source\ChartAxis.h">
+      <Filter>源文件\Chart</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl_source\ChartAxisLabel.h">
+      <Filter>源文件\Chart</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl_source\ChartBalloonLabel.h">
+      <Filter>源文件\Chart</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl_source\ChartBarSerie.h">
+      <Filter>源文件\Chart</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl_source\ChartCandlestickSerie.h">
+      <Filter>源文件\Chart</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl_source\ChartCrossHairCursor.h">
+      <Filter>源文件\Chart</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl_source\ChartCtrl.h">
+      <Filter>源文件\Chart</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl_source\ChartCursor.h">
+      <Filter>源文件\Chart</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl_source\ChartDateTimeAxis.h">
+      <Filter>源文件\Chart</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl_source\ChartDragLineCursor.h">
+      <Filter>源文件\Chart</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl_source\ChartFont.h">
+      <Filter>源文件\Chart</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl_source\ChartGanttSerie.h">
+      <Filter>源文件\Chart</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl_source\ChartGradient.h">
+      <Filter>源文件\Chart</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl_source\ChartGrid.h">
+      <Filter>源文件\Chart</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl_source\ChartLabel.h">
+      <Filter>源文件\Chart</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl_source\ChartLegend.h">
+      <Filter>源文件\Chart</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl_source\ChartLineSerie.h">
+      <Filter>源文件\Chart</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl_source\ChartLogarithmicAxis.h">
+      <Filter>源文件\Chart</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl_source\ChartMouseListener.h">
+      <Filter>源文件\Chart</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl_source\ChartPointsArray.h">
+      <Filter>源文件\Chart</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl_source\ChartPointsSerie.h">
+      <Filter>源文件\Chart</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl_source\ChartScrollBar.h">
+      <Filter>源文件\Chart</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl_source\ChartSerie.h">
+      <Filter>源文件\Chart</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl_source\ChartSerieBase.h">
+      <Filter>源文件\Chart</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl_source\ChartSeriesMouseListener.h">
+      <Filter>源文件\Chart</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl_source\ChartStandardAxis.h">
+      <Filter>源文件\Chart</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl_source\ChartString.h">
+      <Filter>源文件\Chart</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl_source\ChartSurfaceSerie.h">
+      <Filter>源文件\Chart</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl_source\ChartTitle.h">
+      <Filter>源文件\Chart</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl_source\ChartXYSerie.h">
+      <Filter>源文件\Chart</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl_source\PointsOrdering.h">
+      <Filter>源文件\Chart</Filter>
+    </ClInclude>
+    <ClInclude Include="SerialPort.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PSINSCore\KFApp.h">
+      <Filter>头文件\PSINS</Filter>
+    </ClInclude>
+    <ClInclude Include="PSINSCore\PSINS.h">
+      <Filter>头文件\PSINS</Filter>
+    </ClInclude>
+    <ClInclude Include="NavChart.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NaviThread.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NaviDataStore.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="InputInitInfoDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="PSINS_FIMU.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PSINS_FIMUDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DigiStatic_src\Curvefit.cpp">
+      <Filter>源文件\DigiStatic</Filter>
+    </ClCompile>
+    <ClCompile Include="DigiStatic_src\Digistatic.cpp">
+      <Filter>源文件\DigiStatic</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartCtrl_source\ChartAxis.cpp">
+      <Filter>源文件\Chart</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartCtrl_source\ChartAxisLabel.cpp">
+      <Filter>源文件\Chart</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartCtrl_source\ChartBarSerie.cpp">
+      <Filter>源文件\Chart</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartCtrl_source\ChartCandlestickSerie.cpp">
+      <Filter>源文件\Chart</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartCtrl_source\ChartCrossHairCursor.cpp">
+      <Filter>源文件\Chart</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartCtrl_source\ChartCtrl.cpp">
+      <Filter>源文件\Chart</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartCtrl_source\ChartCursor.cpp">
+      <Filter>源文件\Chart</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartCtrl_source\ChartDateTimeAxis.cpp">
+      <Filter>源文件\Chart</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartCtrl_source\ChartDragLineCursor.cpp">
+      <Filter>源文件\Chart</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartCtrl_source\ChartFont.cpp">
+      <Filter>源文件\Chart</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartCtrl_source\ChartGanttSerie.cpp">
+      <Filter>源文件\Chart</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartCtrl_source\ChartGradient.cpp">
+      <Filter>源文件\Chart</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartCtrl_source\ChartGrid.cpp">
+      <Filter>源文件\Chart</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartCtrl_source\ChartLegend.cpp">
+      <Filter>源文件\Chart</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartCtrl_source\ChartLineSerie.cpp">
+      <Filter>源文件\Chart</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartCtrl_source\ChartLogarithmicAxis.cpp">
+      <Filter>源文件\Chart</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartCtrl_source\ChartPointsSerie.cpp">
+      <Filter>源文件\Chart</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartCtrl_source\ChartScrollBar.cpp">
+      <Filter>源文件\Chart</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartCtrl_source\ChartSerie.cpp">
+      <Filter>源文件\Chart</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartCtrl_source\ChartStandardAxis.cpp">
+      <Filter>源文件\Chart</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartCtrl_source\ChartSurfaceSerie.cpp">
+      <Filter>源文件\Chart</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartCtrl_source\ChartTitle.cpp">
+      <Filter>源文件\Chart</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartCtrl_source\ChartXYSerie.cpp">
+      <Filter>源文件\Chart</Filter>
+    </ClCompile>
+    <ClCompile Include="SerialPort.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PSINSCore\KFApp.cpp">
+      <Filter>源文件\PSINS</Filter>
+    </ClCompile>
+    <ClCompile Include="PSINSCore\PSINS.cpp">
+      <Filter>源文件\PSINS</Filter>
+    </ClCompile>
+    <ClCompile Include="NavChart.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="NaviThread.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="NaviDataStore.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="InputInitInfoDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="PSINSFIMU.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\PSINSFIMU.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="ChartCtrl_source\ChartBalloonLabel.inl">
+      <Filter>源文件\Chart</Filter>
+    </None>
+    <None Include="ChartCtrl_source\ChartLabel.inl">
+      <Filter>源文件\Chart</Filter>
+    </None>
+    <None Include="ChartCtrl_source\ChartPointsArray.inl">
+      <Filter>源文件\Chart</Filter>
+    </None>
+    <None Include="ChartCtrl_source\ChartSerieBase.inl">
+      <Filter>源文件\Chart</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\PSINS_FIMU.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
